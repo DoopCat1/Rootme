@@ -3,7 +3,6 @@ import socket
 import re
 import codecs
  
-
 #Connecting to server
 server_address = ('challenge01.root-me.org', 52021)
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
