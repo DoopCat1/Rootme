@@ -16,7 +16,6 @@ def base46_decode(msg):
 	convertbytes = f_value.encode("ascii")
 	convertedbytes = base64.b64decode(convertbytes)
 	decodedsample = convertedbytes.decode("ascii")
-	print(f_value)
 	send_msg(decodedsample.encode())
 	
 
